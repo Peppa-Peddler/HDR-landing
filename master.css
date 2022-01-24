@@ -115,6 +115,41 @@ h2{
     font-size: 35px;
 }
 
+.soluciones{
+    padding-bottom: 60px;
+}
+
+.solucion{
+    text-decoration: none !important;
+    color: #111 !important;
+    width: 32%;
+    display: inline-block;
+    padding-right: 45px;
+    margin-bottom: 30px;
+}
+
+.solucion img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.solucion h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.solucion h3 img{
+    width: 14px;
+    position: relative;
+    opacity: 0.5;
+    margin-left: 5px;
+}
+
+.boton{
+    margin-top: 30px;
+}
+
 .servicios{
     padding-bottom: 40px;
 }
@@ -126,22 +161,29 @@ h2{
     width: 25px;
 }
 
-.servicio{
-    border: 1px solid #ccc;
-    padding: 20px 30px;
-    margin-bottom: 30px;
-    position: relative;
+ul{
+    padding: 0;
+    padding-left: 17px;
 }
 
-h3{
+.servicio{
+    position: relative;
+    border-top: 1px solid #111;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.servicio h3{
     font-size: 25px;
     font-weight: normal;
     margin: 0px;
+    position: absolute;
+    top: 30px;
+    bottom: 0px;
 }
 
 .servicio .serv{
-    font-size: 15px;
-    max-width: 600px;
+    font-size: 17px;
     margin-left: 400px;
 }
 
@@ -151,7 +193,8 @@ h3{
 
 .mision{
     background: #f1f1f1;
-    padding: 100px 0px;
+    padding: 120px 0px;
+    position: relative;
 }
 
 .mision .mis{
@@ -173,4 +216,11 @@ h3{
 .mision .cont{
     max-width: 400px;
     line-height: 1.4;
+}
+
+.mision-img{
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top: 0;
 }
