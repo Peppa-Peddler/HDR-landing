@@ -94,6 +94,19 @@ h1{
     letter-spacing: 0.2px;
 }
 
+@media only screen and (max-width: 620px) {
+    h1{
+	font-size: 40px;
+    }
+    .cover{
+	padding: 50px 0px;
+	padding-bottom: 30px;
+    }
+    .desc{
+	margin-top: 10px;
+    }
+}
+
 .button{
     border: 2px solid #444;
     padding: 10px;
@@ -106,6 +119,7 @@ h1{
     text-align: center;
     width: 170px;
     display: inline-block;
+    margin-bottom: 10px;
 }
 
 .button:hover{
@@ -195,6 +209,16 @@ h2{
     width: 25px;
 }
 
+
+@media only screen and (max-width: 580px) {
+    .servicios h2 img{
+	display: none;
+    }
+    .servicios{
+	padding: 20px 0px;
+    }
+}
+
 ul{
     padding: 0;
     padding-left: 17px;
@@ -219,6 +243,17 @@ ul{
 .servicio .serv{
     font-size: 17px;
     margin-left: 400px;
+}
+
+@media only screen and (max-width: 980px) {
+
+    .servicio h3{
+	position: static;
+    }
+
+    .servicio .serv{
+	margin-left: 0px;
+    }
 }
 
 .serv li{
@@ -247,6 +282,8 @@ ul{
     margin-bottom: 10px;
 }
 
+
+
 .mision .cont{
     max-width: 400px;
     line-height: 1.4;
@@ -266,13 +303,15 @@ ul{
     top: 0;
 }
 
-
 @media only screen and (max-width: 820px) {
     .mision-img{
 	display: none;
     }
     .mision .cont{
 	max-width: 100%;
+    }
+    .mision{
+	padding-bottom: 0px;
     }
 }
 
@@ -317,6 +356,12 @@ ul{
     border-top: 1px solid #eee;
 }
 
+@media only screen and (max-width: 675px) {
+    .trabajo{
+	padding-left: 0px;
+    }
+}
+
 .trabajo img{
     height: 180px;
     border-radius: 5px;
@@ -330,10 +375,30 @@ ul{
     font-size: 17px;
 }
 
+@media only screen and (max-width: 675px) {
+    .trabajo{
+	height: auto;
+    }
+    .trabajo img{
+	position: static;
+    }
+    .work{
+	padding-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .trabajo img{
+	height: auto;
+	width: 100%;
+    }
+}
+
 .contacto{
     background: #f1f1f1;
     padding: 70px 0px;
 }
+
 
 .contacto h2{
     margin-bottom: 10px;
@@ -354,6 +419,17 @@ ul{
     text-align: center;
     margin: 30px 0px;
     margin-right: 60px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .contacto{
+	padding: 30px 0px;
+	text-align: center;
+    }
+    .contacto .info{
+	margin: 20px;
+    }
 }
 
 .contacto .info p{
