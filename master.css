@@ -52,6 +52,8 @@ body{
 
 .right-menu a{
     margin-left: 30px;
+    color: #111 !important;
+    text-decoration: none !important;
 }
 
 .logo{
