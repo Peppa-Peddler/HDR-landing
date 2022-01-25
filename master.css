@@ -302,3 +302,20 @@ ul{
 .contacto .info p{
     font-size: 16px;
 }
+
+.experiencias{
+    background: #f1f1f1;
+    padding: 40px 0px;
+}
+
+.experiencias li{
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+.footer{
+    background: #222;
+    padding: 30px 0px;
+    color: #fff;
+    text-align: center;
+}
